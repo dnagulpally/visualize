@@ -9,21 +9,21 @@
     "name": "Tokyo",
     "region": "ap-northeast-1",
     "id": 2,
-    "total": 0
+    "total": 10
   },
  
   {
     "name": "Sydney",
     "region": "ap-southeast-2",
     "id": 3,
-    "total": 0
+    "total": 10
   },
   
   {
     "name": "Frankfurt",
     "region": "eu-central-1",
     "id": 4,
-    "total": 0
+    "total": 10
   },
   {
     "name": "N.Virginia",
