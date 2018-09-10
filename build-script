@@ -1,0 +1,12 @@
+echo $(git diff-tree --no-commit-id --name-only -r HEAD^1) > committed-files
+while read line; do
+     if [ ! -z "$line" ]; then
+       if  grep -q "https://hooks.slack.com/services/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" $line
+then
+        echo "Looks good!"
+else
+		echo "Webhook not present"
+        exit 1
+    fi
+fi
+done <committed-files
